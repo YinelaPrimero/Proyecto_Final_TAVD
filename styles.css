@@ -2,9 +2,11 @@
 {
     height: 520px;
     width: 925px;
-    border-radius: 20px;
-    /*border: 5px solid black;*/
+    /*border-radius: 20px;*/
+    border-radius: 20px 60px;
+    border: 10px solid #A8BB81;
     margin-left: 225px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2), 0 0 25px 20px rgba(0, 0, 0, 0.19);
 }
 
 .estilos-videos
