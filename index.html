@@ -8,16 +8,28 @@
     <title>Parque Nacional Natural Farallones de Cali </title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="icono.ico.png">
+    <script type=application/javascript src="player.js"></script>
 
 </head>
-<body>
+<body onload="initPlayer()">
 
     <div class="estilos-videos">
 
-        <video controls loop>
+        <video id="myVideo" controls loop ontimeupdate="GetTime()">
             <source src="Video_Ejemplo.mp4" type="video/mp4"> 
         </video>
 
+    </div>
+
+    <div class="bottons">
+
+        <button class="button1" type="button">Click Me!</button>
+        <button class="button2" type="button">Click Me!</button>
+        <button class="button3" type="button">Click Me!</button>
+        <button class="button4" type="button">Click Me!</button>
+        <button class="button5" type="button">Click Me!</button>
+        <button class="button6" type="button">Click Me!</button>
+        
     </div>
 
 </body>
