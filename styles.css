@@ -1,9 +1,18 @@
-video
-{   width: 100%;
-    height: auto;
+video {
+    display: block;
+    margin: 0 auto;
+    border-radius: 7%;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3), 0 0 25px 20px rgba(0, 0, 0, 0.19);
     border-radius: 20px 60px;
     border: 10px solid #A8BB81;
-    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3), 0 0 25px 20px rgba(0, 0, 0, 0.19); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: auto;
+
 }
 
 .estilos-videos
@@ -25,28 +34,34 @@ body {
     background-attachment: fixed;
 }
 
+button{
+    position: absolute;
+    width: 11%;
+    height: 16.2%;
+    max-width: 11%;
+   max-height: 16.2%;
+    
+}
+
 .button1
 {
+    
     position: absolute;
-    top: 295px;
-    left: 386px; 
+    top: 36%;
+    left: 25.4%; 
     cursor: pointer;
-    border-radius: 15px;
-    width: 145px;
-    height: 110px;
     opacity: 0,5;
-    display: none;
+   /* display: none; */
 } 
 
 .button2{
 
     position: absolute;
-    top: 299px;
-    left: 645px; 
+    top: 36.8%;
+    left: 44.2%;
     cursor: pointer;
-    border-radius: 15px;
-    width: 145px;
-    height: 110px;
+    
+   
     opacity: 0,5;
 
 }
@@ -54,36 +69,29 @@ body {
 .button3
 {
     position: absolute;
-    top: 303px;
-    left: 905px; 
+    top: 36.8%;
+    left: 63.1%;
     cursor: pointer;
-    border-radius: 15px;
-    width: 145px;
-    height: 110px;
+ 
     opacity: 0,5;
 }
 
 .button4
 {
     position: absolute;
-    top: 470px;
-    left:  386px; 
+    top: 61%;
+    left: 25.4%;
     cursor: pointer;
-    border-radius: 15px;
-    width: 145px;
-    height: 110px;
+ 
     opacity: 0,5;
 }
 
 .button5
 {
     position: absolute;
-    top: 470px;
-    left: 640px; 
+    top: 61%;
+    left: 44%; 
     cursor: pointer;
-    border-radius: 15px;
-    width: 145px;
-    height: 110px;
     opacity: 0,5;
 
 }
@@ -91,12 +99,9 @@ body {
 .button6
 {
     position: absolute;
-    top:470px;
-    left:  905px; 
+    top: 61%;
+    left: 63%;
     cursor: pointer;
-    border-radius: 15px;
-    width: 145px;
-    height: 110px;
     opacity: 0,5;
 
 }
