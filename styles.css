@@ -9,9 +9,10 @@ video
 .estilos-videos
 {
     /*border: 1px solid black;*/
-    margin-top: 60px;
-    margin-left: 125px;
-    margin-right: 150px;
+    margin-top: 75px;
+    margin-left: 155px;
+    margin-right: 170px;
+    display: flex;
 
 }
 
@@ -22,19 +23,82 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-  }
+}
 
 .button1
 {
     position: absolute;
-    top: 175px;
-    left: 225px;
-    display: inline /*none*/; 
+    top: 295px;
+    left: 386px; 
+    cursor: pointer;
+    border-radius: 15px;
+    width: 145px;
+    height: 110px;
+    opacity: 0,5;
 } 
 
-.buttons
-{
-    position: relative;
-    width: 100%;
-    max-width: 400px;
+.button2{
+
+    position: absolute;
+    top: 299px;
+    left: 645px; 
+    cursor: pointer;
+    border-radius: 15px;
+    width: 145px;
+    height: 110px;
+    opacity: 0,5;
+
 }
+
+.button3
+{
+    position: absolute;
+    top: 303px;
+    left: 905px; 
+    cursor: pointer;
+    border-radius: 15px;
+    width: 145px;
+    height: 110px;
+    opacity: 0,5;
+}
+
+.button4
+{
+    position: absolute;
+    top: 470px;
+    left:  386px; 
+    cursor: pointer;
+    border-radius: 15px;
+    width: 145px;
+    height: 110px;
+    opacity: 0,5;
+}
+
+.button5
+{
+    position: absolute;
+    top: 470px;
+    left: 640px; 
+    cursor: pointer;
+    border-radius: 15px;
+    width: 145px;
+    height: 110px;
+    opacity: 0,5;
+
+}
+
+.button6
+{
+    position: absolute;
+    top:470px;
+    left:  905px; 
+    cursor: pointer;
+    border-radius: 15px;
+    width: 145px;
+    height: 110px;
+    opacity: 0,5;
+
+}
+
+
+
