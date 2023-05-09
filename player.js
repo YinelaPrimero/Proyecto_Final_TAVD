@@ -41,7 +41,46 @@ function initPlayer()
         video.src = "Video_Ejemplo.mp4";
         btnback.style.display = "block";
         player.videoPlaying = 1; 
-    }
+    };
+
+    btn2.onclick = function() {
+
+        video.src = "Video_Ejemplo.mp4";
+        btnback.style.display = "block";
+        player.videoPlaying = 2; 
+    };
+
+    btn3.onclick = function() {
+
+        video.src = "Video_Ejemplo.mp4";
+        btnback.style.display = "block";
+        player.videoPlaying = 3; 
+    };
+
+    btn4.onclick = function() {
+        video.src = "Video_Ejemplo.mp4";
+        btnback.style.display = "block";
+        player.videoPlaying = 4; 
+    };
+
+    btn5.onclick = function() {
+        video.src = "Video_Ejemplo.mp4";
+        btnback.style.display = "block";
+        player.videoPlaying = 5; 
+    }; 
+
+    btn6.onclick = function() {
+        video.src = "Video_Ejemplo.mp4";
+        btnback.style.display = "block";
+        player.videoPlaying = 6; 
+    };
+
+    btnback.onclick = function() {
+        video.src = "INTERFAZ.mp4";
+        btnback.style.display = "block";
+        player.videoPlaying = 0; 
+    }; 
+
 }
 
 function hidenbuttons(){
