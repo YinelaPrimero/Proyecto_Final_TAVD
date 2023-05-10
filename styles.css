@@ -39,8 +39,9 @@ button{
     width: 11%;
     height: 16.2%;
     max-width: 11%;
-   max-height: 16.2%;
-    
+    max-height: 16.2%;
+    opacity: 0;
+    cursor: pointer;
 }
 
 .button1
@@ -49,9 +50,8 @@ button{
     position: absolute;
     top: 36%;
     left: 25.4%; 
-    cursor: pointer;
     opacity: 0,5;
-   /* display: none; */
+    display: none; 
 } 
 
 .button2{
@@ -59,10 +59,8 @@ button{
     position: absolute;
     top: 36.8%;
     left: 44.2%;
-    cursor: pointer;
-    
-   
     opacity: 0,5;
+    display: none; 
 
 }
 
@@ -71,9 +69,8 @@ button{
     position: absolute;
     top: 36.8%;
     left: 63.1%;
-    cursor: pointer;
- 
-    opacity: 0,5;
+    display: none; 
+    
 }
 
 .button4
@@ -81,9 +78,8 @@ button{
     position: absolute;
     top: 61%;
     left: 25.4%;
-    cursor: pointer;
- 
-    opacity: 0,5;
+    display: none; 
+   
 }
 
 .button5
@@ -91,8 +87,8 @@ button{
     position: absolute;
     top: 61%;
     left: 44%; 
-    cursor: pointer;
     opacity: 0,5;
+    display: none; 
 
 }
 
@@ -101,9 +97,13 @@ button{
     position: absolute;
     top: 61%;
     left: 63%;
-    cursor: pointer;
     opacity: 0,5;
+    display: none; 
 
+}
+.buttonback
+{
+    display: none;
 }
 
 

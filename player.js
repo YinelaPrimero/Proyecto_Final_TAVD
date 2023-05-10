@@ -16,6 +16,7 @@ var player =
 
 function initPlayer()
 {
+    
     console.log("Entramos");
     video = document.getElementById("myVideo");
     btn1 = document.getElementById("btn1");
@@ -30,10 +31,43 @@ function initPlayer()
     {
         player.currentTime = video.currentTime;
 
-        if (player.currentTime >=2 && player.videoPlaying == 0)
+        if (player.currentTime >=6 && player.videoPlaying == 0)
         {
             displaybuttons();
         } 
+
+        if (player.currentTime >=25 && player.videoPlaying == 0)
+        {
+            hidenbuttons();
+        }
+
+        if (player.currentTime >=25 && player.videoPlaying == 1)
+        {
+            video.src="INTERFAZ.mp4";
+        }
+
+        if (player.currentTime >=25 && player.videoPlaying == 2)
+        {
+            video.src="INTERFAZ.mp4";
+        }
+
+        if (player.currentTime >=25 && player.videoPlaying == 3)
+        {
+            video.src="INTERFAZ.mp4";
+        }
+        if (player.currentTime >=25 && player.videoPlaying == 4)
+        {
+            video.src="INTERFAZ.mp4";
+        }
+        if (player.currentTime >=25 && player.videoPlaying == 5)
+        {
+            video.src="INTERFAZ.mp4";
+        }
+
+        if (player.currentTime >=25 && player.videoPlaying == 6)
+        {
+            video.src="INTERFAZ.mp4";
+        }
     };
 
     btn1.onclick = function() {
@@ -41,6 +75,7 @@ function initPlayer()
         video.src = "Video_Ejemplo.mp4";
         btnback.style.display = "block";
         player.videoPlaying = 1; 
+        video.play();
     };
 
     btn2.onclick = function() {
@@ -48,6 +83,7 @@ function initPlayer()
         video.src = "Video_Ejemplo.mp4";
         btnback.style.display = "block";
         player.videoPlaying = 2; 
+        video.play();
     };
 
     btn3.onclick = function() {
@@ -55,30 +91,35 @@ function initPlayer()
         video.src = "Video_Ejemplo.mp4";
         btnback.style.display = "block";
         player.videoPlaying = 3; 
+        video.play();
     };
 
     btn4.onclick = function() {
         video.src = "Video_Ejemplo.mp4";
         btnback.style.display = "block";
-        player.videoPlaying = 4; 
+        player.videoPlaying = 4;
+        video.play();
     };
 
     btn5.onclick = function() {
         video.src = "Video_Ejemplo.mp4";
         btnback.style.display = "block";
-        player.videoPlaying = 5; 
+        player.videoPlaying = 5;
+        video.play();
     }; 
 
     btn6.onclick = function() {
         video.src = "Video_Ejemplo.mp4";
         btnback.style.display = "block";
         player.videoPlaying = 6; 
+        video.play();
     };
 
     btnback.onclick = function() {
         video.src = "INTERFAZ.mp4";
         btnback.style.display = "block";
         player.videoPlaying = 0; 
+        video.play();
     }; 
 
 }
